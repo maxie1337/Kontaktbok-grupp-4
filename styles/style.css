@@ -37,21 +37,20 @@ ul{
     margin-top: 15px;
 
 }
-
-.github {
+.container {
     position: absolute;
     bottom: 0;
-    right: 46%;
-    color: rgb(199, 83, 83);
-    
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 
-.index {
-    position: absolute;
-    bottom: 0;
-    right: 50%;
-    color: rgb(199, 83, 83);
+.github, .index {
+    color: rgb(199, 83, 83);    
 }
+
 .links {
     font-size: 1.5rem;
     font-family: sans-serif, verdana;
